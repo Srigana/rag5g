@@ -1,0 +1,780 @@
+{
+  "summary": {
+    "k": 5,
+    "n_questions": 20,
+    "n_skipped": 0,
+    "hit_rate@5": 0.75,
+    "hit_rate@1": 0.6,
+    "mrr": 0.654,
+    "by_doc": {
+      "TS 23.501": {
+        "n": 6,
+        "hit_rate@5": 0.833
+      },
+      "TS 33.501": {
+        "n": 8,
+        "hit_rate@5": 0.625
+      },
+      "TS 38.300": {
+        "n": 6,
+        "hit_rate@5": 0.833
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "q01",
+      "question": "What is the purpose of the N9 interface in a PDU Session?",
+      "doc": "TS 23.501",
+      "gold": [
+        "TS23.501-0800-9074f40b"
+      ],
+      "rank": null,
+      "hit": false,
+      "retrieved": [
+        {
+          "id": "TS23.501-0151-fb90ac6c",
+          "citation": "TS 23.501 \u00a75.6.1, pp.107-108",
+          "score": 0.7256
+        },
+        {
+          "id": "TS23.501-0199-4efecddf",
+          "citation": "TS 23.501 \u00a75.6.10.1, p.129",
+          "score": 0.7253
+        },
+        {
+          "id": "TS23.501-0418-ea53daf6",
+          "citation": "TS 23.501 \u00a75.17.2.1, p.232",
+          "score": 0.7236
+        },
+        {
+          "id": "TS23.501-0615-d041accb",
+          "citation": "TS 23.501 \u00a75.32.2, p.316",
+          "score": 0.7232
+        },
+        {
+          "id": "TS23.501-0262-943a1057",
+          "citation": "TS 23.501 \u00a75.8.2.2.1, p.157",
+          "score": 0.7184
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "question": "What is the purpose of the KDF input parameter when deriving CK' and IK'?",
+      "doc": "TS 33.501",
+      "gold": [
+        "TS33.501-0271-7ae4dbc8",
+        "TS33.501-0526-d5ae5fba",
+        "TS33.501-0527-11a8734d",
+        "TS33.501-0575-c9d5763e",
+        "TS33.501-0576-7e86a956"
+      ],
+      "rank": null,
+      "hit": false,
+      "retrieved": [
+        {
+          "id": "TS33.501-0426-a716e799",
+          "citation": "TS 33.501 \u00a7A.3, pp.237-238",
+          "score": 0.8178
+        },
+        {
+          "id": "TS33.501-0427-ddfa6119",
+          "citation": "TS 33.501 \u00a7A.6, pp.238-239",
+          "score": 0.7807
+        },
+        {
+          "id": "TS33.501-0435-48bf8f1a",
+          "citation": "TS 33.501 \u00a7A.18, pp.244-245",
+          "score": 0.7494
+        },
+        {
+          "id": "TS33.501-0436-1f0a1839",
+          "citation": "TS 33.501 \u00a7A.20, pp.244-245",
+          "score": 0.7485
+        },
+        {
+          "id": "TS33.501-0432-bcc9ca15",
+          "citation": "TS 33.501 \u00a7A.13, p.242",
+          "score": 0.7463
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "question": "What is the purpose of the HANDOVER REQUEST ACKNOWLEDGE message in the context of handover preparation?",
+      "doc": "TS 38.300",
+      "gold": [
+        "TS38.300-0249-f8bb3f27"
+      ],
+      "rank": null,
+      "hit": false,
+      "retrieved": [
+        {
+          "id": "TS38.300-0133-97ec82ea",
+          "citation": "TS 38.300 \u00a79.2.3.4.2, pp.98-99",
+          "score": 0.6974
+        },
+        {
+          "id": "TS38.300-0295-2fd49b7e",
+          "citation": "TS 38.300 \u00a716.10.5.3.2, p.184",
+          "score": 0.6909
+        },
+        {
+          "id": "TS33.501-0116-99d560a7",
+          "citation": "TS 33.501 \u00a76.7.3.1, p.83",
+          "score": 0.6876
+        },
+        {
+          "id": "TS38.300-0118-8f79069f",
+          "citation": "TS 38.300 \u00a79.2.3.2.1, p.91",
+          "score": 0.6859
+        },
+        {
+          "id": "TS23.501-0384-ce550ad4",
+          "citation": "TS 23.501 \u00a75.16.2.2, p.217",
+          "score": 0.6829
+        }
+      ]
+    },
+    {
+      "id": "q04",
+      "question": "What is the purpose of the Binding Indication in the subscription request?",
+      "doc": "TS 23.501",
+      "gold": [
+        "TS23.501-0771-7efe5316",
+        "TS23.501-0772-5c79d7e9"
+      ],
+      "rank": 2,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS23.501-0709-813d4226",
+          "citation": "TS 23.501 \u00a76.3.1.0, pp.360-361",
+          "score": 0.7904
+        },
+        {
+          "id": "TS23.501-0772-5c79d7e9",
+          "citation": "TS 23.501 \u00a77.1.2, pp.387-388",
+          "score": 0.737
+        },
+        {
+          "id": "TS23.501-0706-3efbd1e6",
+          "citation": "TS 23.501 \u00a76.3.1.0, pp.359-360",
+          "score": 0.7265
+        },
+        {
+          "id": "TS23.501-0773-63fab3d6",
+          "citation": "TS 23.501 \u00a77.1.2, pp.387-388",
+          "score": 0.7224
+        },
+        {
+          "id": "TS23.501-0708-3c0f7fd2",
+          "citation": "TS 23.501 \u00a76.3.1.0, p.360",
+          "score": 0.7224
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "question": "What happens to the AS integrity protection algorithm if the AMF selects NIA0 as the NAS integrity protection algorithm?",
+      "doc": "TS 33.501",
+      "gold": [
+        "TS33.501-0120-8c5ab5f0"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS33.501-0120-8c5ab5f0",
+          "citation": "TS 33.501 \u00a76.7.3.6, p.85",
+          "score": 0.8252
+        },
+        {
+          "id": "TS33.501-0033-bb3f0795",
+          "citation": "TS 33.501 \u00a75.5.1, pp.39-40",
+          "score": 0.815
+        },
+        {
+          "id": "TS33.501-0097-c3b07413",
+          "citation": "TS 33.501 \u00a76.4.3.2, pp.74-75",
+          "score": 0.7939
+        },
+        {
+          "id": "TS33.501-0308-1af1d3f1",
+          "citation": "TS 33.501 \u00a710.2.2.2, p.168",
+          "score": 0.7937
+        },
+        {
+          "id": "TS33.501-0463-e0aa197f",
+          "citation": "TS 33.501 \u00a7C.4.4.2, pp.261-262",
+          "score": 0.7834
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "question": "What type of signalling is used to provide multicast MRB configuration(s) to a UE in RRC_CONNECTED state?",
+      "doc": "TS 38.300",
+      "gold": [
+        "TS38.300-0286-e752b183"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS38.300-0286-e752b183",
+          "citation": "TS 38.300 \u00a716.10.1, p.179",
+          "score": 0.8173
+        },
+        {
+          "id": "TS38.300-0287-39066f28",
+          "citation": "TS 38.300 \u00a716.10.3, p.180",
+          "score": 0.8133
+        },
+        {
+          "id": "TS38.300-0297-5b6e1278",
+          "citation": "TS 38.300 \u00a716.10.5.3.4, p.185",
+          "score": 0.7894
+        },
+        {
+          "id": "TS38.300-0291-342598bb",
+          "citation": "TS 38.300 \u00a716.10.5.2, pp.182-183",
+          "score": 0.7841
+        },
+        {
+          "id": "TS38.300-0299-e33f0009",
+          "citation": "TS 38.300 \u00a716.10.5.4, pp.185-186",
+          "score": 0.7832
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "question": "What happens to the UDR flag in the HPLMN when the subscribed S-NSSAIs change?",
+      "doc": "TS 23.501",
+      "gold": [
+        "TS23.501-0346-f1ddaa8b",
+        "TS23.501-0347-2aa646aa"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS23.501-0347-2aa646aa",
+          "citation": "TS 23.501 \u00a75.15.4.2, p.204",
+          "score": 0.7991
+        },
+        {
+          "id": "TS23.501-0346-f1ddaa8b",
+          "citation": "TS 23.501 \u00a75.15.4.2, pp.203-204",
+          "score": 0.7808
+        },
+        {
+          "id": "TS23.501-0368-56c39618",
+          "citation": "TS 23.501 \u00a75.15.5.3, pp.210-211",
+          "score": 0.759
+        },
+        {
+          "id": "TS23.501-0341-fb20dfe6",
+          "citation": "TS 23.501 \u00a75.15.4.1.1, p.202",
+          "score": 0.7443
+        },
+        {
+          "id": "TS23.501-0344-66118ad0",
+          "citation": "TS 23.501 \u00a75.15.4.1.1, pp.202-203",
+          "score": 0.7423
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "question": "What happens to the AMF's locally kept NCC value after a successful N2 Resume Request message is received from the ng-eNB?",
+      "doc": "TS 33.501",
+      "gold": [
+        "TS33.501-0152-57946ae0",
+        "TS33.501-0153-80b80cfb",
+        "TS33.501-0225-b74de0ff",
+        "TS33.501-0232-47fd6671"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS33.501-0232-47fd6671",
+          "citation": "TS 33.501 \u00a76.16.2.4, pp.129-130",
+          "score": 0.8697
+        },
+        {
+          "id": "TS33.501-0225-b74de0ff",
+          "citation": "TS 33.501 \u00a76.16.2.1, pp.127-128",
+          "score": 0.7976
+        },
+        {
+          "id": "TS33.501-0153-80b80cfb",
+          "citation": "TS 33.501 \u00a76.9.2.3.2, pp.97-98",
+          "score": 0.7762
+        },
+        {
+          "id": "TS33.501-0158-3c81b8ed",
+          "citation": "TS 33.501 \u00a76.9.2.3.3, p.99",
+          "score": 0.7695
+        },
+        {
+          "id": "TS33.501-0231-06f22f59",
+          "citation": "TS 33.501 \u00a76.16.2.3, pp.129-130",
+          "score": 0.7673
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "question": "What happens to the PDCP SN and HFN in the target gNB during a Full Configuration handover for RLC-AM bearers?",
+      "doc": "TS 38.300",
+      "gold": [
+        "TS38.300-0124-c8083cde"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS38.300-0124-c8083cde",
+          "citation": "TS 38.300 \u00a79.2.3.2.2, p.94",
+          "score": 0.8632
+        },
+        {
+          "id": "TS38.300-0125-2f71d1d9",
+          "citation": "TS 38.300 \u00a79.2.3.2.2, pp.94-95",
+          "score": 0.8462
+        },
+        {
+          "id": "TS38.300-0123-c30cfc0d",
+          "citation": "TS 38.300 \u00a79.2.3.2.2, pp.93-94",
+          "score": 0.8437
+        },
+        {
+          "id": "TS38.300-0369-3771e21c",
+          "citation": "TS 38.300 \u00a716.15.4.2.2, p.221",
+          "score": 0.8326
+        },
+        {
+          "id": "TS38.300-0119-5884f652",
+          "citation": "TS 38.300 \u00a79.2.3.2.1, pp.91-92",
+          "score": 0.8194
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "What happens to the AMF's stored NH and NCC value when a new 5G NAS security context is activated?",
+      "doc": "TS 33.501",
+      "gold": [
+        "TS33.501-0153-80b80cfb"
+      ],
+      "rank": null,
+      "hit": false,
+      "retrieved": [
+        {
+          "id": "TS33.501-0279-dfe03e4d",
+          "citation": "TS 33.501 \u00a78.2, p.152",
+          "score": 0.837
+        },
+        {
+          "id": "TS33.501-0013-68cad697",
+          "citation": "TS 33.501 \u00a73.1, p.26",
+          "score": 0.823
+        },
+        {
+          "id": "TS33.501-0128-e910dc17",
+          "citation": "TS 33.501 \u00a76.8.1.1.2.3, pp.88-89",
+          "score": 0.8171
+        },
+        {
+          "id": "TS33.501-0135-aba31bc7",
+          "citation": "TS 33.501 \u00a76.8.1.3, p.91",
+          "score": 0.8123
+        },
+        {
+          "id": "TS33.501-0098-86a6f2f6",
+          "citation": "TS 33.501 \u00a76.4.4.2, pp.74-75",
+          "score": 0.8122
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "question": "What is the role of the IAB-donor-CU in the establishment and release of redundant routes for IAB-nodes operating in SA-mode?",
+      "doc": "TS 38.300",
+      "gold": [
+        "TS38.300-0032-08a02957",
+        "TS38.300-0033-64b65069"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS38.300-0033-64b65069",
+          "citation": "TS 38.300 \u00a74.7.4.3, p.36",
+          "score": 0.8628
+        },
+        {
+          "id": "TS38.300-0029-46a9a40b",
+          "citation": "TS 38.300 \u00a7B, p.34",
+          "score": 0.8178
+        },
+        {
+          "id": "TS38.300-0032-08a02957",
+          "citation": "TS 38.300 \u00a74.7.3.3, pp.35-36",
+          "score": 0.8086
+        },
+        {
+          "id": "TS38.300-0027-4b564d08",
+          "citation": "TS 38.300 \u00a74.7.1, pp.32-33",
+          "score": 0.7968
+        },
+        {
+          "id": "TS33.501-0503-d695254e",
+          "citation": "TS 33.501 Annex M (normative), p.291",
+          "score": 0.7868
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "question": "What happens to the UE's S-NSSAIs when it moves from EPS to 5GS?",
+      "doc": "TS 23.501",
+      "gold": [
+        "TS23.501-0373-76b17ca6",
+        "TS23.501-0374-9a69a8b8"
+      ],
+      "rank": 4,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS23.501-0438-285496da",
+          "citation": "TS 23.501 \u00a75.17.2.4, pp.239-240",
+          "score": 0.7529
+        },
+        {
+          "id": "TS23.501-0422-cc384470",
+          "citation": "TS 23.501 \u00a75.17.2.1, pp.233-234",
+          "score": 0.7477
+        },
+        {
+          "id": "TS33.501-0285-bd80322e",
+          "citation": "TS 33.501 \u00a78.3.2, pp.155-157",
+          "score": 0.7461
+        },
+        {
+          "id": "TS23.501-0373-76b17ca6",
+          "citation": "TS 23.501 \u00a75.15.7.1, pp.212-213",
+          "score": 0.7444
+        },
+        {
+          "id": "TS23.501-0575-5b15a295",
+          "citation": "TS 23.501 \u00a75.31.3, p.299",
+          "score": 0.7399
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "question": "Where is NF selection performed in the scenario where NF Service Consumer and NF Service Producer are in different PLMNs?",
+      "doc": "TS 33.501",
+      "gold": [
+        "TS33.501-0389-83b322d4"
+      ],
+      "rank": null,
+      "hit": false,
+      "retrieved": [
+        {
+          "id": "TS23.501-0770-e5d1c8b6",
+          "citation": "TS 23.501 \u00a76.3.17, p.386",
+          "score": 0.7671
+        },
+        {
+          "id": "TS33.501-0374-21d12281",
+          "citation": "TS 33.501 \u00a713.4.1.1.3, pp.204-205",
+          "score": 0.7556
+        },
+        {
+          "id": "TS33.501-0380-9b17d4f9",
+          "citation": "TS 33.501 \u00a713.4.1.2.2, pp.207-208",
+          "score": 0.7433
+        },
+        {
+          "id": "TS23.501-0492-58825f19",
+          "citation": "TS 23.501 \u00a75.21.3.4, pp.262-263",
+          "score": 0.7424
+        },
+        {
+          "id": "TS33.501-0356-2b5a34b9",
+          "citation": "TS 33.501 \u00a713.3.1.3, pp.195-196",
+          "score": 0.7403
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "question": "What type of notification may be sent by the SMF to the AF about a UP path change for a PDU Session?",
+      "doc": "TS 23.501",
+      "gold": [
+        "TS23.501-0184-b61e8b17"
+      ],
+      "rank": 3,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS23.501-0183-c0e77cb7",
+          "citation": "TS 23.501 \u00a75.6.7.1, pp.122-123",
+          "score": 0.8094
+        },
+        {
+          "id": "TS23.501-0188-7210f450",
+          "citation": "TS 23.501 \u00a75.6.7.1, p.124",
+          "score": 0.8084
+        },
+        {
+          "id": "TS23.501-0184-b61e8b17",
+          "citation": "TS 23.501 \u00a75.6.7.1, p.123",
+          "score": 0.8026
+        },
+        {
+          "id": "TS23.501-0189-1875ccd6",
+          "citation": "TS 23.501 \u00a75.6.7.2, pp.124-125",
+          "score": 0.79
+        },
+        {
+          "id": "TS23.501-0187-43da5ebd",
+          "citation": "TS 23.501 \u00a75.6.7.1, p.124",
+          "score": 0.7852
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "question": "What happens when the MN cannot allocate an unused radio bearer identity for a new radio bearer in the SN due to radio bearer identity space exhaustion?",
+      "doc": "TS 33.501",
+      "gold": [
+        "TS33.501-0173-2741cd36",
+        "TS33.501-0174-2d9c089b"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS33.501-0174-2d9c089b",
+          "citation": "TS 33.501 \u00a76.10.2.1, pp.106-107",
+          "score": 0.8242
+        },
+        {
+          "id": "TS33.501-0173-2741cd36",
+          "citation": "TS 33.501 \u00a76.10.1.2, p.106",
+          "score": 0.7314
+        },
+        {
+          "id": "TS33.501-0178-eecb43dc",
+          "citation": "TS 33.501 \u00a76.10.2.2.3, p.108",
+          "score": 0.7155
+        },
+        {
+          "id": "TS23.501-0125-9313ca5e",
+          "citation": "TS 23.501 \u00a75.4.4.1a, pp.96-97",
+          "score": 0.7043
+        },
+        {
+          "id": "TS23.501-0342-a0db2ffb",
+          "citation": "TS 23.501 \u00a75.15.4.1.1, p.202",
+          "score": 0.6945
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "question": "What happens to the UE when no slice-based cell reselection information is provided for any NSAG that was determined to be considered during cell reselection?",
+      "doc": "TS 38.300",
+      "gold": [
+        "TS38.300-0246-a920293b"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS38.300-0246-a920293b",
+          "citation": "TS 38.300 \u00a716.3.3a, pp.157-158",
+          "score": 0.8655
+        },
+        {
+          "id": "TS38.300-0098-b4eb8ee6",
+          "citation": "TS 38.300 \u00a79.2.1.1, p.78",
+          "score": 0.7963
+        },
+        {
+          "id": "TS38.300-0243-602f477e",
+          "citation": "TS 38.300 \u00a716.3.1, pp.155-156",
+          "score": 0.7531
+        },
+        {
+          "id": "TS38.300-0245-6f47e9b2",
+          "citation": "TS 38.300 \u00a716.3.3.1, p.157",
+          "score": 0.743
+        },
+        {
+          "id": "TS38.300-0105-a8f20219",
+          "citation": "TS 38.300 \u00a79.2.2.2, pp.81-82",
+          "score": 0.7381
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "question": "What is the purpose of verifying the signature of the access token using NRF's public key?",
+      "doc": "TS 33.501",
+      "gold": [
+        "TS33.501-0371-3d1e2780"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS33.501-0371-3d1e2780",
+          "citation": "TS 33.501 \u00a713.4.1.1.2, p.203",
+          "score": 0.7563
+        },
+        {
+          "id": "TS33.501-0361-ecd8fb4c",
+          "citation": "TS 33.501 \u00a713.3.8.2, p.198",
+          "score": 0.7364
+        },
+        {
+          "id": "TS33.501-0362-f5b3c951",
+          "citation": "TS 33.501 \u00a713.4.1.0, pp.198-199",
+          "score": 0.7358
+        },
+        {
+          "id": "TS33.501-0036-937f0645",
+          "citation": "TS 33.501 \u00a75.9.2.2, p.42",
+          "score": 0.7304
+        },
+        {
+          "id": "TS33.501-0378-37cbb948",
+          "citation": "TS 33.501 \u00a713.4.1.2.2, p.207",
+          "score": 0.7296
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "question": "What is the definition of A2X services?",
+      "doc": "TS 38.300",
+      "gold": [
+        "TS38.300-0012-0d761c94"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS38.300-0012-0d761c94",
+          "citation": "TS 38.300 \u00a73.1, p.21",
+          "score": 0.6071
+        },
+        {
+          "id": "TS23.501-0409-4d9b4fab",
+          "citation": "TS 23.501 \u00a75.16.5, p.228",
+          "score": 0.5904
+        },
+        {
+          "id": "TS23.501-0820-5c1785bb",
+          "citation": "TS 23.501 \u00a7G.4.1, pp.427-428",
+          "score": 0.5559
+        },
+        {
+          "id": "TS33.501-0405-ed8416e5",
+          "citation": "TS 33.501 \u00a714.4.1.4, pp.223-224",
+          "score": 0.5531
+        },
+        {
+          "id": "TS23.501-0815-a4875cc3",
+          "citation": "TS 23.501 \u00a7G.2.1, pp.423-425",
+          "score": 0.5528
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "question": "What is the purpose of setting up two redundant PDU Sessions over the 5G network?",
+      "doc": "TS 23.501",
+      "gold": [
+        "TS23.501-0646-a7ab6bab",
+        "TS23.501-0647-eee244b1"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS23.501-0647-eee244b1",
+          "citation": "TS 23.501 \u00a75.33.2.1, pp.329-330",
+          "score": 0.8103
+        },
+        {
+          "id": "TS38.300-0236-08fe08ff",
+          "citation": "TS 38.300 \u00a716.1.5, p.152",
+          "score": 0.7928
+        },
+        {
+          "id": "TS33.501-0505-9ad1da44",
+          "citation": "TS 33.501 Annex N (normative), p.292",
+          "score": 0.7865
+        },
+        {
+          "id": "TS23.501-0648-80bf3169",
+          "citation": "TS 23.501 \u00a75.33.2.1, p.330",
+          "score": 0.7421
+        },
+        {
+          "id": "TS23.501-0649-e9120509",
+          "citation": "TS 23.501 \u00a75.33.2.1, pp.330-331",
+          "score": 0.7381
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "question": "What attributes are confidentiality protected when sent over the N32-f interface, irrespective of the Data-type Encryption Policy?",
+      "doc": "TS 33.501",
+      "gold": [
+        "TS33.501-0044-ce16f6cd"
+      ],
+      "rank": 1,
+      "hit": true,
+      "retrieved": [
+        {
+          "id": "TS33.501-0044-ce16f6cd",
+          "citation": "TS 33.501 \u00a75.9.3.3, pp.45-46",
+          "score": 0.811
+        },
+        {
+          "id": "TS33.501-0334-8e102c8d",
+          "citation": "TS 33.501 \u00a713.2.2.4.3, pp.182-183",
+          "score": 0.7917
+        },
+        {
+          "id": "TS33.501-0335-48c7fe69",
+          "citation": "TS 33.501 \u00a713.2.3.2, pp.183-184",
+          "score": 0.782
+        },
+        {
+          "id": "TS33.501-0548-88453139",
+          "citation": "TS 33.501 Annex X (normative), p.322",
+          "score": 0.7524
+        },
+        {
+          "id": "TS33.501-0329-8380b421",
+          "citation": "TS 33.501 \u00a713.2.2.1, pp.179-180",
+          "score": 0.7439
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}
